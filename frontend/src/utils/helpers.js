@@ -129,9 +129,9 @@ export function formatDatetime(param) {
 }
 
 /*
-  Regex to validate phone number format
+  Regex to validate phone number format and 10 number check
 */
-export const validatePhoneNumber = /^(?:[+\d()\-\s]+)$/;
+export const validatePhoneNumber = /^(?:[+\d()\-\s]+){10}$/;
 
 /*
  Set object value in html
